@@ -1,3 +1,5 @@
+// actual ntsc simulation from https://github.com/LMP88959/NTSC-CRT
+
 #include <stdlib.h>
 #include "frei0r.h"
 #include "crt_core.h"
