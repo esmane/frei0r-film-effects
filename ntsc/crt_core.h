@@ -3,6 +3,7 @@
  * NTSC/CRT - integer-only NTSC video signal encoding / decoding emulation
  *
  *   by EMMIR 2018-2023
+ *   modified for Frei0r by esmane 2024
  *
  *   YouTube: https://www.youtube.com/@EMMIR_KC/videos
  *   Discord: https://discord.com/invite/hdYctSmyQJ
@@ -16,6 +17,9 @@
  */
 /* 0 = vertical  chroma (228 chroma clocks per line) */
 /* 1 = checkered chroma (227.5 chroma clocks per line) */
+#ifndef _CRT_CORE_H_
+#define _CRT_CORE_H_
+
 #define CRT_CHROMA_PATTERN 1
 
 /* chroma clocks (subcarrier cycles) per line */
@@ -105,20 +109,6 @@
 #define BLACK_LEVEL      7
 #define BLANK_LEVEL      0
 #define SYNC_LEVEL      -40
-
-
-/*****************************************************************************/
-/*
- * NTSC/CRT - integer-only NTSC video signal encoding / decoding emulation
- *
- *   by EMMIR 2018-2023
- *
- *   YouTube: https://www.youtube.com/@EMMIR_KC/videos
- *   Discord: https://discord.com/invite/hdYctSmyQJ
- */
-/*****************************************************************************/
-#ifndef _CRT_CORE_H_
-#define _CRT_CORE_H_
 
 /* crt_core.h
  *
