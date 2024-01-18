@@ -3,6 +3,7 @@
  * NTSC/CRT - integer-only NTSC video signal encoding / decoding emulation
  *
  *   by EMMIR 2018-2023
+ *   modified for Frei0r by esmane 2024
  *
  *   YouTube: https://www.youtube.com/@EMMIR_KC/videos
  *   Discord: https://discord.com/invite/hdYctSmyQJ
